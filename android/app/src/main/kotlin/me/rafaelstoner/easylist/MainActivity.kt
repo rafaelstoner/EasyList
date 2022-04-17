@@ -1,0 +1,6 @@
+package me.rafaelstoner.easylist
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
