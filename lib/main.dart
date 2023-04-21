@@ -16,9 +16,14 @@ class MyApp extends StatelessWidget {
             child: Text('EasyList'),
           ),
         ),
-        body: const Center(
-          child: Text('Funciona'),
-        ),
+        body: Card(
+          child: Column (
+            children: [
+              Image.asset('assets/food.jpg'),
+              Text('Hell yha'),
+            ],
+          ),
+        )
 
       ),
     );
